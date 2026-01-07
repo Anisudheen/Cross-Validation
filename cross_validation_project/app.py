@@ -4,7 +4,7 @@ import joblib
 
 @st.cache_resource
 def load_model():
-    return joblib.load("logistic_regression_model.pkl")
+    return joblib.load("cross_validation_project/logistic_regression_model.pkl")
 
 model = load_model()
 
